@@ -1,9 +1,10 @@
+import Log from '@/components/Login/Log'
 import React from 'react'
 
 function Login() {
   return (
     <div>
-        <h1>Login Page</h1>
+        <Log />
     </div>
   )
 }
