@@ -1,0 +1,81 @@
+/* .reg-button{
+    position: relative;
+    top: 60%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+} */
+
+.log-in-link, 
+.reg-button{
+    position:sticky;
+    top: 75%;
+    text-align: center;
+    transform: translateY(-50%);
+
+}
+
+.reg-button button, 
+.log-in-link span{
+    background-color: white;
+    color: black;
+    padding: 10px 50px;
+    border-radius: 30px;
+}
+
+.input-fields{
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+.input-fields span{
+    background-color: black;
+    color: white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-fields input,
+.input-fields select{
+    width: 90%;
+    height: 40px;
+    padding: 0px 10px;
+}
+
+.login-hint{
+    position: relative;
+    top: 20%;
+}
+
+.animated-background{
+    animation: wipe 500ms ease-in-out forwards;
+    transform: scaleY(0);
+}
+.log-in-container{
+    animation-delay: 250ms;
+}
+.animated-input{
+    animation: fade 2.8s forwards;
+}
+
+@keyframes wipe {
+    0%{
+        transform-origin: left;
+        transform: scaleX(0);
+    }
+    100%{
+        transform-origin: left;
+        transform: scaleX(1);
+    }
+}
+@keyframes fade {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
