@@ -19,6 +19,7 @@
 body {
   background-color: whitesmoke;
   color: black;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 @layer utilities {

@@ -39,7 +39,7 @@ function Log() {
         >
             <div className="login-hint animated-input">
                 <p>No Account?</p>
-                <p style={{fontSize: 0.8 + "rem"}}>Register with Administration</p>
+                <p style={{fontSize: 0.7 + "rem"}}>Register with Administration</p>
             </div>
             <div className='log-in-link animated-input'>
                 <Link href={'/'}><span>Register</span></Link>

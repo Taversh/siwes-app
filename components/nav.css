@@ -1,0 +1,39 @@
+nav{
+    background-color: darkblue;
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0px;
+}
+
+.nav-logo-container{
+
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+}
+
+.nav-links ul li{
+    list-style: none;
+    background-color: gray;
+    padding: 10px 30px;
+    margin: 20px 0px;
+    border: none;
+    border-radius: 13px;
+    text-align: center;
+}
+
+.log-out button,
+.log-out{
+    width: 100%;
+    background-color: rgb(202, 4, 4);
+    color: white;
+    text-align: center;
+    padding: 5px;
+}

@@ -52,7 +52,7 @@ function Reg() {
         >
             <div className="login-hint animated-input">
                 <p>Already Registered?</p>
-                <p>Log into your account</p>
+                <p style={{fontSize: 0.7 + "rem"}}>Log into your account</p>
             </div>
             <div className='log-in-link animated-input'>
                 <Link href={'/login'}><span>Log in</span></Link>

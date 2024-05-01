@@ -20,6 +20,7 @@
     color: black;
     padding: 10px 50px;
     border-radius: 30px;
+    cursor: pointer;
 }
 
 .input-fields{
@@ -43,6 +44,11 @@
     width: 90%;
     height: 40px;
     padding: 0px 10px;
+    background-color: whitesmoke;
+    color: black;
+}
+.input-fields input::placeholder{
+    color: rgba(0, 0, 0, 0.900);
 }
 
 .login-hint{
@@ -65,15 +71,31 @@
     0%{
         transform-origin: left;
         transform: scaleX(0);
+        opacity: 0;
     }
     100%{
         transform-origin: left;
         transform: scaleX(1);
+        opacity: 1;
     }
 }
 @keyframes fade {
     0%{
         opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.reg-button button:hover,
+.log-in-link span:hover{
+    animation: pulse forwards 600ms ease-in-out;
+}
+
+@keyframes pulse {
+    0%{
+        opacity: 0.7;
     }
     100%{
         opacity: 1;
