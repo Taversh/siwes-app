@@ -1,7 +1,7 @@
 import React from 'react'
 import './nav.css';
 import Link from 'next/link';
-import { FaCircle } from 'react-icons/fa';
+import { FaCircle, FaAnchor } from 'react-icons/fa';
 
 function NavBar() {
   return (
@@ -9,7 +9,7 @@ function NavBar() {
         <nav>
             <div className='nav-logo-container'>
                 <Link href={'/dashboard'} className='nav-logo'>
-                    <FaCircle/>
+                    <span><FaAnchor/></span>
                     <p>SIWES Digital Log</p>
                 </Link>
             </div>

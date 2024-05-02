@@ -1,0 +1,25 @@
+.profile-container{
+    position: relative;
+    left: 65%;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    background-color: rgb(59, 130, 246);
+    color: whitesmoke;
+    padding: 20px;
+    border-radius: 0px 0px 20px 20px;
+}
+.profile-container span{
+    font-size: 3.5rem;
+}
+
+.name-and-details{
+    margin: 0px 30px;
+}
+.name,
+.details{
+    background-color: whitesmoke;
+    color: rgb(59, 130, 246);
+    margin: 5px 0px;
+    padding: 0px 10px;
+}
