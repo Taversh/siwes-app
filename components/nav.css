@@ -54,4 +54,5 @@ nav{
     color: white;
     text-align: center;
     padding: 5px;
+    cursor: pointer;
 }

@@ -1,12 +1,12 @@
 .profile-container{
     position: relative;
-    left: 65%;
+    left: 62%;
     display: flex;
     align-items: center;
     width: fit-content;
     background-color: rgb(59, 130, 246);
     color: whitesmoke;
-    padding: 20px;
+    padding: 40px 40px;
     border-radius: 0px 0px 20px 20px;
 }
 .profile-container span{
@@ -16,10 +16,31 @@
 .name-and-details{
     margin: 0px 30px;
 }
+
 .name,
 .details{
     background-color: whitesmoke;
     color: rgb(59, 130, 246);
     margin: 5px 0px;
     padding: 0px 10px;
+}
+
+.display{
+    width: 75vw;
+    position: sticky;
+    padding: 30px;
+    left: 20vw;
+    margin-top: 3%;
+    background-color: rgb(59, 130, 246);
+    color: whitesmoke;
+    border-radius: 20px;
+}
+.display h1{
+    font-size: 1.8rem;
+    font-weight: bold;
+    border-bottom: 2px solid whitesmoke;
+    margin-bottom: 20px;
+}
+.display p{
+    font-size: 1.0rem;
 }

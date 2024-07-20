@@ -15,8 +15,8 @@ function ProfileCard() {
     <div>
         <div className="profile-container">
             <div style={{
-                marginRight: 10 + "px",
-                marginLeft: 30 + "px"
+                // marginRight: 10 + "px",
+                // marginLeft: 30 + "px"
             }}>
                 <span>
                     <FaCircle/>
