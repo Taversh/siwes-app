@@ -23,7 +23,7 @@ function Dashboard() {
           </p>
           <br />
           <p>
-            Thank you for your commitment to excellence and for being an integral part of our school's success.
+            Thank you for your commitment to excellence and for being an integral part of our school&apos;s success.
           </p>
         </div>
     </div>

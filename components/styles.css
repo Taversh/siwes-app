@@ -1,3 +1,10 @@
+body{
+    background-image: url(../app/Babcock-University-cropped.jpg);
+  background-repeat: no-repeat;
+  background-size: 25%;
+  background-position: 20vw 0vh;
+}
+
 .profile-container{
     position: relative;
     left: 62%;
